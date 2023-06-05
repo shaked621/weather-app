@@ -1,0 +1,24 @@
+mat-form-field {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.signup-form {
+  width: 20%;
+  margin: auto;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.title {
+  padding: 16px 16px 0 16px;
+}
+
+.signup {
+  margin-left: 66%;
+}

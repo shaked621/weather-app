@@ -1,0 +1,22 @@
+<mat-card class="weather-form">
+  <mat-card-title class="title">Weather</mat-card-title>
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+  <div class="content" *ngIf="!isLoading">
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <p>Temperature {{ weatherData?.temperature }} °C</p>
+    </mat-card-content>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <p>Wind Direction {{ weatherData?.winddirection }} °</p>
+    </mat-card-content>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <p>Wind Speed {{ weatherData?.windspeed }} km/h</p>
+    </mat-card-content>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <p>User enteries to the system {{ counter }}</p>
+    </mat-card-content>
+  </div>
+</mat-card>

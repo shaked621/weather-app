@@ -1,0 +1,52 @@
+mat-form-field {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.weather-form {
+  width: 20%;
+  margin: auto;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  padding: 16px;
+  width: 300px;
+  color: white;
+  background-color: red;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.title {
+  padding: 16px;
+  font-size: 40px;
+}
+
+.signup {
+  margin-left: 66%;
+}
+
+.mat-mdc-card-content {
+  padding: 16px;
+}
